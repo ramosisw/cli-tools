@@ -6,11 +6,6 @@ IF "%1_____" == "_____" (
 
 IF "%1" == "ramosisw" (
     git config --user.name ramosisw
-    git config --user.email ramos.isw@gmail.com
-)
-
-IF "%1" == "julio.ramos" (
-    git config --user.name julio.ramos
 )
 
 GOTO :EOF
